@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400; */
+    font: 400 17px 'Roboto';
+    /* max-width: 70%; */
+    margin: auto;
+    background-color: rgba(234, 234, 195, 0.279);
+}
+
+.navigation {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;}
+    .navigation ul {border-left: 10px solid rgba(104, 104, 98, 0.516);}
+
+.header {
+    padding: 5px;
+}
+    
+        
+.card {
+    border-radius: 20px;
+    background-color: rgba(217, 212, 195, 0.846);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        background: greenyellow;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid red;
+    }
+    .container {
+        max-width: 70%;
+        margin:auto
+    }
+
+    #sources {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .history {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+#avatar {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.45);
+    border-radius: 35px;
+    height: 250px;
+    width: 400px;
+
+    
+}
+
+.btn {
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+}
+
+.btn:hover {
+        color: coral;
+        text-decoration: underline;
+        opacity: .9;}
+
+a {text-decoration: none;
+    color: inherit;}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: burlywood;
+} */
+
+.list li {
+    list-style: none;
+    margin-bottom: 10px;
+    /* border-bottom: solid green 1px; */
+}
+
+.tabledistrict {
+    text-align: center;
+    padding-bottom: 0px;
+    border: solid gray 1px;
+    width: 100%;
+}
+
+
+.tabledistrict tr:nth-child(odd) {
+    background-color: rgb(190, 186, 186)
+    ;
+}
+
+.tabledistrict td:nth-child(2), .table td:nth-child(4) {
+    background: rgb(190, 186, 186);
+}
+.tabledistrict td:hover {
+    background: rgba(232, 125, 125, 0.45);
+}
+.tabledistrict td {
+    padding-bottom: 8px;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+    width: 100%;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+    
+}
+.navbar ul li {
+
+    margin-right: 10px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+
+}
+
+.navbar ul li:hover {
+    background: rgb(190, 186, 186);
+}
+.navbar ul li:last-child {
+
+    margin-right: 0;
+}
+.navbar ul li:first-child {
+
+    margin-left: 0;
+    padding-left: 0;
+}
+.population-list {
+    margin-left: 40px;
+}
+#basic1 li {
+    margin: 10px;
+    }
+#basic {
+    background: rgb(218, 242, 216);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+#sources {
+    background: rgb(234, 235, 216);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.header-block {
+    display: flex;
+}
+.header-block-text {
+    margin-left: 40px;
+}
+
+/* .block-2 div {
+    /* display: inline-block; */
+
+/* } */
+
+.block-2 h4 {
+    text-align: center;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: solid #ccc 1px;
+    color: black;
+    padding: 15px 0 10 px;
+    outline: none;
+    font-family: inherit;
+
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: calc(33%-20px); */
+    width: 33%;
+    
+
+}
+.form-row .form-group:last-child {margin-right: 0;}
+
+@media (max-width: 850px) {
+    .form-row {
+        display: block;   
+    }
+    .form-row {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form-group {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+.form-group label {
+    display: block;
+}
+.header-block {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    }
+
+@media (max-width: 850px) {
+    .header-block {
+        display: block;
+        text-align: center;
+    }
+}
